@@ -5,7 +5,28 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V²Base.Compatibility", "V²Base.Compatibility\V²Base.Compatibility.csproj", "{B49A7AD0-ADBA-4CCB-A2FC-B8169E6741EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V²Base.Compatibility.Core", "V²Base.Compatibility.Core\V²Base.Compatibility.Core.csproj", "{E5613D6F-B016-41BB-BE6C-02ACA9DFA5E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V²Base.Compatibility.Common", "V²Base.Compatibility.Common\V²Base.Compatibility.Common.csproj", "{80BE89BC-15E2-46B2-BD32-027EDC9BB0E6}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Vituner.Common", "http://localhost:63271", "{A774E7A2-988A-46A2-B13E-AEC408E47F56}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63271"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\ViTuner\Vituner.Common\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63271\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63271"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\ViTuner\Vituner.Common\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63271\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\Desktop\ViTuner\Vituner.Common\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +38,14 @@ Global
 		{B49A7AD0-ADBA-4CCB-A2FC-B8169E6741EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B49A7AD0-ADBA-4CCB-A2FC-B8169E6741EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B49A7AD0-ADBA-4CCB-A2FC-B8169E6741EF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E5613D6F-B016-41BB-BE6C-02ACA9DFA5E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E5613D6F-B016-41BB-BE6C-02ACA9DFA5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E5613D6F-B016-41BB-BE6C-02ACA9DFA5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E5613D6F-B016-41BB-BE6C-02ACA9DFA5E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80BE89BC-15E2-46B2-BD32-027EDC9BB0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80BE89BC-15E2-46B2-BD32-027EDC9BB0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80BE89BC-15E2-46B2-BD32-027EDC9BB0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80BE89BC-15E2-46B2-BD32-027EDC9BB0E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A774E7A2-988A-46A2-B13E-AEC408E47F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A774E7A2-988A-46A2-B13E-AEC408E47F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A774E7A2-988A-46A2-B13E-AEC408E47F56}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A774E7A2-988A-46A2-B13E-AEC408E47F56}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

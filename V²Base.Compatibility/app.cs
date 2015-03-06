@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace V_Base.Compatibility
 {
-    public partial class Form1 : Form
+    public partial class app : Form
     {
-        public Form1()
+        public app()
         {
             InitializeComponent();
+ 
+        }
+
+        private void app_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

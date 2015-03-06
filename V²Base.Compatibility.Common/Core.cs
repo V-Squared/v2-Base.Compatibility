@@ -5,7 +5,11 @@ using System.Text;
 
 namespace V_Base.Compatibility.Core
 {
-    public class Class1
+    public class Core
     {
+        public void AnalyzeSystem()
+        {
+
+        }
     }
 }
