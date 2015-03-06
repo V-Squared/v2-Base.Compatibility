@@ -1,0 +1,33 @@
+﻿Visual Studio Free
+https://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx
+
+
+Github setup(untested)
+	From within Visual Studio 2013:
+	Select File -> Open -> Open From Source Control
+	The Team Explorer window will come up, one of the sections is "Local GIT repositories". In that section choose "Clone".
+	That will bring up a path selection textbox and directory browser. Simply replace the default path with the git URL (in your case "https://github.com/Villagetronic/V-Base.Compatibility")
+
+
+
+
+	We decided not to use this as its not free
+XML > C# Code Generator (may not need this)
+http://www.xsd2code.com/Download.aspx
+Find where xsd2code installs the Add in => Possible in c:\users[YourName]\My Documents\Visual Studio 2010\Addins or c:\Visual Studio 2010\Addins
+
+In Visual Studio. Go to Tools->Options->Add-in/Macros Security->Add
+Find the path of AddIns and add to this option.
+Then go to tools > addin and pick xsd2code
+Right click your xml. 
+
+
+
+
+WQL (SQL for WMI)
+https://msdn.microsoft.com/en-us/library/aa394606%28v=vs.85%29.aspx
+
+http://www.codeproject.com/Articles/46390/WMI-Query-Language-by-Example
+
+
+
