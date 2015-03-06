@@ -1,4 +1,5 @@
 ﻿using System.Web.Script.Serialization;
+using V_Base.Compatibility.Common;
 using V_Base.Compatibility.Core;
 namespace V_Base.Compatibility
 {
@@ -39,7 +40,13 @@ namespace V_Base.Compatibility
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(279, 257);
             this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = wmiHelper.searchWMI("SELECT __RELPATH FROM Win32_LogicalDisk");
+
+            //ToDo refactor all this, remove static,
+
+
+            string WQL = testLoader.loadJSONWebTest("lookup.json").GetValue(0).ToString();
+         
+           this.richTextBox1.Text = wmiHelper.searchWMI(WQL);
             
             // 
             // app

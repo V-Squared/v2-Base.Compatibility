@@ -48,6 +48,7 @@
       <DependentUpon>InformationData.xsd</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="testLoader.cs" />
     <Compile Include="wmiHelper.cs" />
   </ItemGroup>
   <ItemGroup>

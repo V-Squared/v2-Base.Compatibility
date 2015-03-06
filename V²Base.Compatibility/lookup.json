@@ -1,0 +1,3 @@
+﻿[
+   "SELECT __RELPATH FROM Win32_LogicalDisk"
+]

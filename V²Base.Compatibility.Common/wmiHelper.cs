@@ -12,6 +12,8 @@ namespace V_Base.Compatibility.Core
         //SELECT * FROM Win32_LogicalDisk
         public static string searchWMI(string WMIQuery)
         {
+
+
             WqlObjectQuery wqlQuery =
                new WqlObjectQuery(WMIQuery);
             ManagementObjectSearcher searcher =
