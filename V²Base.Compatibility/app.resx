@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>By clicking ‘Log Configuration’ you are agreeing to submit technical information about your computer's configuration to Villagetronic for the purpose of hardware diagnostics.  This information will be used for support and research purpose and will not be sold to 3rd parties.  We will work to keep your information as secure as possible however Villagetronic is not liable for server breach or other issues pertaining to data management.  Click ‘Log Configuration’ to accept these terms and agree to continue.  Thank you for helping to improve our products and services.  </value>
+  </data>
 </root>

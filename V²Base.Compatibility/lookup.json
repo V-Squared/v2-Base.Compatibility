@@ -1,3 +1,39 @@
 ﻿[
-   "SELECT __RELPATH FROM Win32_LogicalDisk"
+    {
+        "search": "bios",
+        "details": "Select * from Win32_Bios"
+    },
+    {
+        "search": "disks",
+        "details": "Select * from Win32_LogicalDisk"
+    },
+    {
+        "search": "services",
+        "details": "SELECT * FROM Win32_Service"
+    },
+    {
+        "search": "services_base",
+        "details": "SELECT * FROM Win32_BaseService"
+    },
+    {
+        "search": "devices",
+        "details": "Select * from Win32_SystemDevices"
+    },
+    {
+        "search": "devices_base",
+        "details": "Select * from Win32_BaseService"
+    },
+    {
+        "search": "drivers",
+        "details": "Select * from Win32_SystemDriver"
+    },
+
+    {
+        "search": "codecs",
+        "details": "Select * from Win32_CodecFile"
+    },
+    {
+        "search": "processes",
+        "details": "select WorkingSet, Name from Win32_PerfFormattedData_PerfProc_Process"
+    }
 ]

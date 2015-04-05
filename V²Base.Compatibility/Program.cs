@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using V_Base.Compatibility.Common;
 using V_Base.Compatibility.Core;
 namespace V_Base.Compatibility
 {
@@ -17,8 +18,15 @@ namespace V_Base.Compatibility
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new app());
+            app myapp = new app();
+            myapp.setText("Please enter your email to press 'Log Configuration' to start recording your computer's information.");
             
+
+            Application.Run(myapp);
+            
+    
+        
+          
             
         }
     }

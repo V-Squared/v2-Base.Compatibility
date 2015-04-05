@@ -11,12 +11,14 @@ namespace V_Base.Compatibility.Common
 {
     public class testLoader
     {
-    public static Array loadJSONWebTest(String Path){
+        public static List<Dictionary<string, string>> loadJSONWebTest(String Path)
+        {
          String test =  new WebClient().DownloadString(Path);
         JavaScriptSerializer JSONBuild = new JavaScriptSerializer();
-        Array result = JSONBuild.DeserializeObject(test) as Array;
-         
-        return result;
+
+        var dict = JSONBuild.Deserialize<List<Dictionary<string,string>>>(test);
+
+        return dict;
     }
     }
 }
